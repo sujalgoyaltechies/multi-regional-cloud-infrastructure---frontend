@@ -123,32 +123,7 @@ const App = () => {
           }}>
             {message}
           </p>
-          <a
-            href="#"
-            style={{
-              display: 'inline-block',
-              padding: '0.85rem 2.2rem',
-              background: 'linear-gradient(90deg, #667eea 0%, #764ba2 100%)',
-              color: 'white',
-              borderRadius: '30px',
-              fontWeight: 700,
-              fontSize: '1.1rem',
-              letterSpacing: '0.5px',
-              textDecoration: 'none',
-              boxShadow: '0 2px 12px rgba(118,75,162,0.10)',
-              transition: 'background 0.3s, box-shadow 0.3s'
-            }}
-            onMouseOver={e => {
-              e.target.style.background = 'linear-gradient(90deg, #764ba2 0%, #667eea 100%)'
-              e.target.style.boxShadow = '0 4px 24px rgba(118,75,162,0.18)'
-            }}
-            onMouseOut={e => {
-              e.target.style.background = 'linear-gradient(90deg, #667eea 0%, #764ba2 100%)'
-              e.target.style.boxShadow = '0 2px 12px rgba(118,75,162,0.10)'
-            }}
-          >
-            Get Started
-          </a>
+         
         </div>
 
         {/* Features Section */}
